@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-08T09:02:00 IST" name="CrossBrowser" finished-at="2025-05-08T09:02:20 IST" duration-ms="20575">
+    <groups>
+    </groups>
+    <test started-at="2025-05-08T09:02:00 IST" name="ChromeTest" finished-at="2025-05-08T09:02:11 IST" duration-ms="11047">
+      <class name="day6_15042025.CrossBrowserTestingDemo">
+        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:day6_15042025.CrossBrowserTestingDemo@595b007d]" started-at="2025-05-08T09:02:00 IST" name="LaunchBrowser" finished-at="2025-05-08T09:02:08 IST" duration-ms="8263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="AppLaunch()[pri:1, instance:day6_15042025.CrossBrowserTestingDemo@595b007d]" started-at="2025-05-08T09:02:08 IST" name="AppLaunch" finished-at="2025-05-08T09:02:11 IST" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+      </class> <!-- day6_15042025.CrossBrowserTestingDemo -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-05-08T09:02:11 IST" name="EdgeTest" finished-at="2025-05-08T09:02:20 IST" duration-ms="9317">
+      <class name="day6_15042025.CrossBrowserTestingDemo">
+        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:day6_15042025.CrossBrowserTestingDemo@618b19ad]" started-at="2025-05-08T09:02:11 IST" name="LaunchBrowser" finished-at="2025-05-08T09:02:17 IST" duration-ms="5965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="AppLaunch()[pri:1, instance:day6_15042025.CrossBrowserTestingDemo@618b19ad]" started-at="2025-05-08T09:02:17 IST" name="AppLaunch" finished-at="2025-05-08T09:02:20 IST" duration-ms="3328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+      </class> <!-- day6_15042025.CrossBrowserTestingDemo -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- CrossBrowser -->
+</testng-results>

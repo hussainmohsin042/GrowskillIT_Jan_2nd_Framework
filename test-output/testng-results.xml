@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-23T08:25:29 IST" name="Default suite" finished-at="2025-04-23T08:26:21 IST" duration-ms="51695">
+  <suite started-at="2025-05-06T13:50:16 IST" name="CrossBrowser" finished-at="2025-05-06T13:50:35 IST" duration-ms="19289">
     <groups>
     </groups>
-    <test started-at="2025-04-23T08:25:29 IST" name="Default test" finished-at="2025-04-23T08:26:21 IST" duration-ms="51695">
-      <class name="day10_22042025.HybridFrameworkDemo">
-        <test-method signature="executionMethod()[pri:0, instance:day10_22042025.HybridFrameworkDemo@1189dd52]" started-at="2025-04-23T08:25:29 IST" name="executionMethod" finished-at="2025-04-23T08:26:21 IST" duration-ms="51599" status="PASS">
+    <test started-at="2025-05-06T13:50:16 IST" name="ChromeTest" finished-at="2025-05-06T13:50:25 IST" duration-ms="9049">
+      <class name="day6_15042025.CrossBrowserTestingDemo">
+        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:day6_15042025.CrossBrowserTestingDemo@8f4ea7c]" started-at="2025-05-06T13:50:16 IST" name="LaunchBrowser" finished-at="2025-05-06T13:50:22 IST" duration-ms="6877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- executionMethod -->
-      </class> <!-- day10_22042025.HybridFrameworkDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="AppLaunch()[pri:1, instance:day6_15042025.CrossBrowserTestingDemo@8f4ea7c]" started-at="2025-05-06T13:50:23 IST" name="AppLaunch" finished-at="2025-05-06T13:50:25 IST" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+      </class> <!-- day6_15042025.CrossBrowserTestingDemo -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-05-06T13:50:25 IST" name="EdgeTest" finished-at="2025-05-06T13:50:35 IST" duration-ms="9998">
+      <class name="day6_15042025.CrossBrowserTestingDemo">
+        <test-method signature="LaunchBrowser(java.lang.String)[pri:0, instance:day6_15042025.CrossBrowserTestingDemo@1bb5a082]" started-at="2025-05-06T13:50:25 IST" name="LaunchBrowser" finished-at="2025-05-06T13:50:32 IST" duration-ms="6777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="AppLaunch()[pri:1, instance:day6_15042025.CrossBrowserTestingDemo@1bb5a082]" started-at="2025-05-06T13:50:32 IST" name="AppLaunch" finished-at="2025-05-06T13:50:35 IST" duration-ms="3206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+      </class> <!-- day6_15042025.CrossBrowserTestingDemo -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- CrossBrowser -->
 </testng-results>

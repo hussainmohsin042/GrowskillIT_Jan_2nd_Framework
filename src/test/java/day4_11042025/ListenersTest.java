@@ -23,11 +23,11 @@ public class ListenersTest extends Utility implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 
 		System.out.println("On Test Case  Failed: " + result.getName());
-		try {
+	/*	try {
 			captureSS(result.getName());
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		}*/
 	}
 
 	@Override
